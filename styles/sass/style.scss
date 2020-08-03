@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: RobotoCondensed;
+    text-transform: uppercase;
+}
+
+body {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media all and(max-width: 807px){
+    body {
+        padding: 0;
+    }
+}
+
+a {
+    color: inherit;
+}
+
+.clear-fix {
+    content: "";
+    display: table;
+    clear: both;
+}
+@import "./fonts";
+@import "./header";
+@import "./section_1";
+@import "./footer";
+
